@@ -338,7 +338,6 @@ select {
     margin-bottom: 20px;
     font-size: 2rem;
     color: white;
-
   }
   
 .content {
@@ -607,6 +606,21 @@ hr {
     .fitness-description {
         width: 100%;
         padding: 20px;
+    }
+
+    .recipe-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }    
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .recipe-name{
+        margin-left: 20px;
     }
     .get-started{
         padding-left: 20px;
